@@ -1,7 +1,7 @@
 public class Livro {
     private String titulo;
     private String autor;
-    private Number paginas;
+    private int paginas;
     private String genero;
 
     //gets e sets das variaveis
@@ -22,7 +22,7 @@ public class Livro {
     public Number getPaginas() {
         return paginas;
     }
-    public void setPaginas(Number paginas) {
+    public void setPaginas(int paginas) {
         this.paginas = paginas;
     }
 
