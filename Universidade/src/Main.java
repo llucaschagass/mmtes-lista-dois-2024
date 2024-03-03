@@ -71,6 +71,10 @@ public class Main {
         professor2.setSenhaProfessor("1234");
         universidade.adicionarProfessor(professor2);
 
+        //Notas provisórias até implementação do sistema de lançamento de notas
+        aluno1.setNota1(70);
+        aluno1.setNota2(80);
+
         // Inicio do Programa
         Scanner scanner = new Scanner(System.in);
 
@@ -97,7 +101,12 @@ public class Main {
                             exibirDisciplinas(universidade);
                             break;
                         case 2:
-
+                            System.out.println("Sistema ainda não implementado como esperado");
+                            System.out.println("Nota para Modelos, Métodos e Técnicas de Engenharia de Software:");
+                            System.out.println(aluno1.getNota1());
+                            System.out.println("");
+                            System.out.println("Nota para Análise de Dados e Big Data:");
+                            System.out.println(aluno1.getNota2());
                             break;
                         case 3:
                             System.out.println("Saindo do programa.");
@@ -121,7 +130,7 @@ public class Main {
                     int escolhaProfessor = scanner.nextInt();
                     switch (escolhaProfessor) {
                         case 1:
-                            // Lógica para lançar notas
+                            System.out.println("Sistema ainda não implementado como esperado");
                             break;
                         case 2:
                             visualizarAlunos(universidade);
